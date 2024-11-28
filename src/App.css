@@ -1,0 +1,44 @@
+*{
+  font-family: 'inter', sans-serif;
+}
+.heroBottom{
+  background: url('./assets/bgbottom.svg'),url('./assets/heroBgShape.svg');
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.customBoxShadow{
+  box-shadow: 0 0 10px 5px rgba(84, 83, 83, 0.58);
+}
+.customBoxShadowSm:hover{
+  box-shadow: 0 0 20px 0px rgba(209, 208, 208, 0.372);
+}
+.benefitsBg{
+  background: url('./assets/benefits-bg-faded-shape.svg');
+  background-size: 65vw;
+  background-repeat: no-repeat;
+  background-position:0 100%;
+}
+.whyChooseBg{
+background: url('./assets/swoop-5-top.svg'),url('./assets/swoop-5-bottom.svg');
+background-position: top  , bottom ;
+background-repeat: no-repeat;
+}
+.requestFormBg{
+  background:url('./assets/swoop-invert-top.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@media (min-width:1280px){
+  .benefitsBg{
+    background-size: 70vw;
+  }
+ 
+}
+
+@media (max-width:800px) {
+  .benefitsBg{
+    background: none;
+  }
+}

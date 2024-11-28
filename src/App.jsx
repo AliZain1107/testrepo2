@@ -14,7 +14,6 @@ function App() {
   return (
     <main className=' min-h-[100vh]'>
        <Navbar /> 
-       <Navbar />
        <Hero />
        <WhatIsFraFunnel />
        <Parteners />
